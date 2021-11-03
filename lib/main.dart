@@ -40,54 +40,58 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: const EdgeInsets.only(
                     top: 30, bottom: 10, left: 25, right: 25),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    const Icon(
-                      Icons.phone,
-                      color: Colors.teal,
-                    ),
-                    const SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "+88 01723605770",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: "Source_Sans_Pro",
-                        fontSize: 20.0,
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      const Icon(
+                        Icons.phone,
+                        color: Colors.teal,
                       ),
-                    ),
-                  ],
+                      const SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        "+88 01723605770",
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: "Source_Sans_Pro",
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                     vertical: 10.0, horizontal: 25.0),
-                padding: const EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    const Icon(
-                      Icons.mail,
-                      color: Colors.teal,
-                    ),
-                    const SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "junaed1995@gmail.com",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: "Source_Sans_Pro",
-                        fontSize: 20.0,
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      const Icon(
+                        Icons.mail,
+                        color: Colors.teal,
                       ),
-                    ),
-                  ],
+                      const SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        "junaed1995@gmail.com",
+                        style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: "Source_Sans_Pro",
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
